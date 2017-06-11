@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Login</title>
+<link href="css/bootstrap.css" rel='stylesheet' type='text/css' />
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="js/jquery.min.js"></script>
+<!-- Custom Theme files -->
+<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
+<!-- Custom Theme files -->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!--Animation-->
+<script src="js/wow.min.js"></script>
+<link href="css/animate.css" rel='stylesheet' type='text/css' />
+<script>
+	new WOW().init();
+</script>
+</head>
+<body>
+    <!-- header-section-starts -->
+	<div class="header">
+		<div class="container">
+			<div class="top-header">
+				<div class="logo">
+					<a href="index.jsp"><img src="images/logo.png" class="img-responsive" alt=""/></a>
+				</div>
+				<div class="queries">
+					<p>Struggling with your recipe? Fell Free to<span>Track your Calorie</span>with us!</p>
+				</div>
+				<div class="clearfix"></div>
+			</div>
+		</div>
+		<div class="menu-bar">
+			<div class="container">
+				<div class="top-menu">
+					<ul>
+						<li class="active"><a href="index.jsp" class="scroll">Calculator</a></li>
+						|
+						<li><a href="Top10Low.jsp">Learn More</a></li>
+						|
+						<li><a href="contact.jsp">contact</a></li>
+						<div class="clearfix"></div>
+					</ul>
+				</div>
+				<div class="login-section">
+					<ul>
+						<li><a href="login.html">Login</a></li>
+						|
+						<li><a href="register.html">Register</a></li>
+						|
+						<li><a href="images/ug.pdf">Help</a></li>
+						<div class="clearfix"></div>
+					</ul>
+				</div>
+				<div class="clearfix"></div>
+			</div>
+		</div>
+	</div>
+	<!-- header-section-ends -->
+	<!-- content-section-starts -->
+	<div class="content">
+	<div class="container">
+		<div class="login-page">
+			    <div class="dreamcrub">
+			   	 <ul class="breadcrumbs">
+                    <li class="home">
+                       <a href="index.html" title="Go to Home Page">Home</a>&nbsp;
+                       <span>&gt;</span>
+                    </li>
+                    <li class="women">
+                       Login
+                    </li>
+                </ul>
+                <ul class="previous">
+                	<li><a href="index.html">Back to Previous Page</a></li>
+                </ul>
+                <div class="clearfix"></div>
+			   </div>
+			   <div class="account_grid">
+			   <div class="col-md-6 login-left wow fadeInLeft" data-wow-delay="0.4s">
+			  	 <h3>NEW CUSTOMERS</h3>
+				   <p>By creating an account, you will be able to view and track your daily, weekly and monthly calorie intake in your account and more.</p>
+				 <a class="acount-btn" href="register.html">Create an Account</a>
+			   </div>
+			   <div class="col-md-6 login-right wow fadeInRight" data-wow-delay="0.4s">
+			  	<h3>REGISTERED CUSTOMERS</h3>
+				<p>If you have an account with us, please log in.</p>
+				<form method="post" action="login.jsp">
+				  <div>
+					<span>Email Address<label>*</label></span>
+					<input type="text" name="email"> 
+				  </div>
+				  <div>
+					<span>Password<label>*</label></span>
+					<input type="password" name="pswd">
+				  </div>
+				  <a class="forgot" href="#">Forgot Your Password?</a>
+				  <input type="submit" value="Login">
+			    </form>
+			   </div>	
+			   <div class="clearfix"> </div>
+			 </div>
+		   </div>
+</div>
+	</div>
+	<!-- content-section-ends -->
+	<!-- footer-section-starts -->
+	<div class="footer">
+		<div class="container">
+			<p class="wow fadeInLeft" data-wow-delay="0.4s">Copyright &copy; 2017.Extreme Team All rights reserved. <a href="https://www.youtube.com/watch?v=pM6onWcNcRA">About Developers</a></p>
+		</div>
+	</div>
+	</body>
+</html>
